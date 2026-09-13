@@ -1,17 +1,17 @@
 import "./Intro.css";
-import introImage from "../assets/GalleryImg/g11.jpeg";
+import introImage from "../assets/GalleryImg/g1.jpeg";
 import infoImage from "../assets/GalleryImg/g4.jpeg";
-import g1 from "../assets/GalleryImg/g1.jpeg";
 import g2 from "../assets/GalleryImg/g2.jpeg";
 import g3 from "../assets/GalleryImg/g3.jpeg";
 import g5 from "../assets/GalleryImg/g5.jpeg";
 import g7 from "../assets/GalleryImg/g7.jpeg";
+import g9 from "../assets/GalleryImg/g9.jpeg";
 import useScrollReveal from "../hooks/useScrollReveal";
 import useParallax from "../hooks/useParallax";
 import { NavLink } from "react-router-dom";
 import Carousel from "../components/Carousel/Carousel";
 
-const carouselImages = [g1, g2, g3, introImage, g5, g7];
+const carouselImages = [introImage, g2, g3, g5, g7, g9];
 
 const block = (e) => e.preventDefault();
 
@@ -78,14 +78,14 @@ export default function Intro() {
       <div className="intro-hero">
         <div className="intro-text reveal reveal-left" ref={heroText}>
           <p className="intro-eyebrow">Welcome</p>
-          <h2>Hi, I'm <em>Teena...</em></h2>
+          <h2>Hi, I'm <em>Shruti...</em></h2>
           <div className="intro-divider"><div className="intro-divider-dot" /></div>
           <p>I'm a warm, naturally elegant woman with a genuine love for meaningful connection. Whether over a candlelit dinner, a quiet evening in, or an adventure across the city — I bring presence, warmth, and an effortless sense of ease to every moment we share.</p>
           <p>Conversation flows naturally with me. I'm curious, attentive, and genuinely interested in the person across from me. I appreciate the finer things — not out of habit, but because I believe beautiful experiences are worth savouring.</p>
           <p>Discretion, mutual respect, and genuine chemistry are at the heart of everything I do. I take great care in curating experiences that feel personal, unhurried, and truly memorable.</p>
           <h3>What You Can Expect</h3>
           <p>A companion who is fully present — engaged, warm, and attentive. Every encounter is approached with care and intention, so you can arrive as yourself, relax completely, and leave feeling genuinely seen and appreciated.</p>
-          <p className="signature">With warmth,<span>Teena</span></p>
+          <p className="signature">With warmth,<span>Shruti</span></p>
         </div>
 
         <div className="intro-image reveal reveal-right" ref={heroImg}>
@@ -150,7 +150,7 @@ export default function Intro() {
       {/* ── TIMELINE ── */}
       <div className="timeline-section reveal" ref={timeline1}>
         <p className="timeline-eyebrow">An evening together</p>
-        <h3 className="timeline-title">A Date With Teena</h3>
+        <h3 className="timeline-title">A Date With Shruti</h3>
         <div className="timeline">
           {timeline.map((t, i) => (
             <div className="timeline-item" key={t.time}>
@@ -176,7 +176,7 @@ export default function Intro() {
       {/* ── INFO ── */}
       <div className="intro-info">
         <div className="info-image-side reveal reveal-left" ref={infoImg}>
-          <img src={infoImage} alt="Teena" ref={parallax2} className="parallax-img" onContextMenu={block} onDragStart={block} />
+          <img src={infoImage} alt="Shruti" ref={parallax2} className="parallax-img" onContextMenu={block} onDragStart={block} />
           <div className="img-shield" />
         </div>
         <div className="info-text-side reveal reveal-right" ref={infoText}>

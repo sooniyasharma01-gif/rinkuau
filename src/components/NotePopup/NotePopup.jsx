@@ -7,7 +7,7 @@ export default function NotePopup() {
   const [visible, setVisible] = useState(false);
   const [dismissed, setDismissed] = useState(() => !!sessionStorage.getItem("note_dismissed"));
 
-  const WA_URL = `https://wa.me/${config.phone}?text=${encodeURIComponent(config.whatsappMessage || "Hi Teena, I'd love to connect with you.")}`;
+  const WA_URL = `https://wa.me/${config.phone}?text=${encodeURIComponent(config.whatsappMessage || "Hi Shruti, I'd love to connect with you.")}`;
 
   useEffect(() => {
     if (dismissed) return;
@@ -28,7 +28,7 @@ export default function NotePopup() {
       <button className="note-close" onClick={dismiss}>✕</button>
       <div className="note-avatar">T</div>
       <div className="note-content">
-        <p className="note-name">Teena <span className="note-online" /></p>
+        <p className="note-name">Shruti <span className="note-online" /></p>
         <p className="note-msg">Still browsing? I'd love to hear from you 👋</p>
         <a href={WA_URL} target="_blank" rel="noopener noreferrer" className="note-btn" onClick={dismiss}>
           Say Hello on WhatsApp

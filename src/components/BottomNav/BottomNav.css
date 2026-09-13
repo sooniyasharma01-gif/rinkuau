@@ -11,7 +11,7 @@
     left: 0;
     right: 0;
     z-index: 9000;
-    background: rgba(250, 247, 242, 0.97);
+    background: rgba(245, 240, 248, 0.97);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-top: 1px solid rgba(201, 169, 110, 0.2);
@@ -59,12 +59,10 @@
     transform: scale(0.9);
   }
 
-  /* Add padding to body so content isn't hidden behind bottom nav */
   body {
     padding-bottom: 76px;
   }
 
-  /* Move WhatsApp button above bottom nav */
   .book-cta {
     bottom: 88px;
   }

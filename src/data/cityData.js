@@ -1,12 +1,12 @@
 export const cityData = {
   sydney: {
     cityName: "Sydney",
-    title: "Teena | Indian Escort & Companion in Sydney | GFE Sydney",
+    title: "Shruti | Indian Escort & Companion in Sydney | GFE Sydney",
     eyebrow: "Sydney Companion",
     heading: "Indian Escort & Companion in Sydney",
     subheading: "Premium GFE in Sydney",
     introText:
-      "Looking for a genuine, elegant companion in Sydney? I'm Teena — a naturally warm Indian woman offering refined companionship across Sydney. Whether it's a candlelit dinner at Quay, cocktails in Darling Harbour, or a quiet evening in your hotel suite, I bring real presence, effortless conversation, and an experience you won't forget.",
+      "Looking for a genuine, elegant companion in Sydney? I'm Shruti — a naturally warm Indian woman offering refined companionship across Sydney. Whether it's a candlelit dinner at Quay, cocktails in Darling Harbour, or a quiet evening in your hotel suite, I bring real presence, effortless conversation, and an experience you won't forget.",
     aboutParagraphs: [
       "I'm a premium independent companion based in Australia, frequently available in Sydney. My approach is simple — genuine connection, mutual respect, and an experience that feels nothing like a transaction.",
       "Sydney is one of my favourite cities to work in. The harbour, the energy, the world-class dining — it sets the perfect backdrop for an unforgettable evening together. I'm equally comfortable at a harbourside restaurant or in the privacy of your CBD hotel.",
@@ -35,12 +35,12 @@ export const cityData = {
 
   melbourne: {
     cityName: "Melbourne",
-    title: "Teena | Indian Escort & Companion in Melbourne | GFE Melbourne",
+    title: "Shruti | Indian Escort & Companion in Melbourne | GFE Melbourne",
     eyebrow: "Melbourne Companion",
     heading: "Indian Escort & Companion in Melbourne",
     subheading: "Refined GFE in Melbourne",
     introText:
-      "Melbourne — the city of laneways, rooftop bars, and long evenings that blur into something beautiful. I'm Teena, an Indian companion offering genuine, unhurried experiences in Melbourne. Whether it's cocktails on a hidden rooftop, dinner in Southbank, or a private evening at your hotel — I'm the kind of company that makes everything feel easy.",
+      "Melbourne — the city of laneways, rooftop bars, and long evenings that blur into something beautiful. I'm Shruti, an Indian companion offering genuine, unhurried experiences in Melbourne. Whether it's cocktails on a hidden rooftop, dinner in Southbank, or a private evening at your hotel — I'm the kind of company that makes everything feel easy.",
     aboutParagraphs: [
       "Melbourne holds a special place for me. The culture, the food scene, the pace — it's a city made for connection. I visit regularly and always look forward to evenings here.",
       "I'm not the rushed, transactional type. My clients in Melbourne appreciate that I take my time, that conversation comes naturally, and that the experience feels real — because it is.",
@@ -69,12 +69,12 @@ export const cityData = {
 
   brisbane: {
     cityName: "Brisbane",
-    title: "Teena | Indian Escort & Companion in Brisbane | GFE Brisbane",
+    title: "Shruti | Indian Escort & Companion in Brisbane | GFE Brisbane",
     eyebrow: "Brisbane Companion",
     heading: "Indian Escort & Companion in Brisbane",
     subheading: "Warm & Genuine GFE in Brisbane",
     introText:
-      "Brisbane's warmth suits me perfectly — and I don't just mean the weather. I'm Teena, an Indian companion offering genuine, relaxed experiences in Brisbane. From riverside dinners at Eagle Street Pier to private evenings in your Fortitude Valley hotel, I bring ease, elegance, and real connection to every encounter.",
+      "Brisbane's warmth suits me perfectly — and I don't just mean the weather. I'm Shruti, an Indian companion offering genuine, relaxed experiences in Brisbane. From riverside dinners at Eagle Street Pier to private evenings in your Fortitude Valley hotel, I bring ease, elegance, and real connection to every encounter.",
     aboutParagraphs: [
       "There's something about Brisbane that makes people slow down and actually connect. That's exactly the kind of experience I offer — unhurried, genuine, and completely focused on you.",
       "I visit Brisbane regularly and have come to love its blend of sophistication and laid-back charm. Whether you're a local looking for regular companionship or a business traveller seeking a memorable evening, I'm here for it.",
@@ -103,12 +103,12 @@ export const cityData = {
 
   perth: {
     cityName: "Perth",
-    title: "Teena | Indian Escort & Companion in Perth | GFE Perth",
+    title: "Shruti | Indian Escort & Companion in Perth | GFE Perth",
     eyebrow: "Perth Companion",
     heading: "Indian Escort & Companion in Perth",
     subheading: "Exclusive GFE in Perth",
     introText:
-      "Perth — isolated, beautiful, and full of surprises. I'm Teena, a premium Indian companion who visits Perth regularly. If you've been searching for genuine, refined company in WA, your search ends here. Dinner overlooking the Swan River, drinks in Northbridge, or a quiet evening at your place — I make every moment count.",
+      "Perth — isolated, beautiful, and full of surprises. I'm Shruti, a premium Indian companion who visits Perth regularly. If you've been searching for genuine, refined company in WA, your search ends here. Dinner overlooking the Swan River, drinks in Northbridge, or a quiet evening at your place — I make every moment count.",
     aboutParagraphs: [
       "Perth doesn't get the attention it deserves. The sunsets alone are worth the trip — and I've found that Perth clients appreciate quality companionship more than anywhere else, precisely because options are fewer.",
       "When I'm in Perth, I'm fully present. No rushing between bookings, no distracted energy. My Perth visits are limited, which means every encounter gets my complete attention.",
@@ -137,12 +137,12 @@ export const cityData = {
 
   adelaide: {
     cityName: "Adelaide",
-    title: "Teena | Indian Escort & Companion in Adelaide | GFE Adelaide",
+    title: "Shruti | Indian Escort & Companion in Adelaide | GFE Adelaide",
     eyebrow: "Adelaide Companion",
     heading: "Indian Escort & Companion in Adelaide",
     subheading: "Genuine GFE in Adelaide",
     introText:
-      "Adelaide — understated, sophisticated, and intimate. I'm Teena, an Indian companion offering premium experiences in Adelaide. This city's charm lies in its quieter pace, and that suits my style perfectly. From wine bars on Peel Street to private evenings in North Adelaide — let me show you what genuine companionship feels like.",
+      "Adelaide — understated, sophisticated, and intimate. I'm Shruti, an Indian companion offering premium experiences in Adelaide. This city's charm lies in its quieter pace, and that suits my style perfectly. From wine bars on Peel Street to private evenings in North Adelaide — let me show you what genuine companionship feels like.",
     aboutParagraphs: [
       "Adelaide is a hidden gem, and so am I. This city rewards those who look a little deeper — the same is true of time spent with me. Nothing flashy, nothing forced — just real, elegant company.",
       "I visit Adelaide for clients who appreciate quality over quantity. The Adelaide dining and wine scene is exceptional, and I love exploring it with someone who shares that appreciation.",
@@ -171,12 +171,12 @@ export const cityData = {
 
   "gold-coast": {
     cityName: "Gold Coast",
-    title: "Teena | Indian Escort & Companion on the Gold Coast | GFE Gold Coast",
+    title: "Shruti | Indian Escort & Companion on the Gold Coast | GFE Gold Coast",
     eyebrow: "Gold Coast Companion",
     heading: "Indian Escort & Companion — Gold Coast",
     subheading: "Sun, Surf & Genuine Connection",
     introText:
-      "The Gold Coast is made for good times — and I'm made for great company. I'm Teena, a premium Indian companion available on the Gold Coast. Whether you're here for business, a boys' trip, or just need someone beautiful and genuine to share an evening with, I bring warmth, elegance, and effortless chemistry.",
+      "The Gold Coast is made for good times — and I'm made for great company. I'm Shruti, a premium Indian companion available on the Gold Coast. Whether you're here for business, a boys' trip, or just need someone beautiful and genuine to share an evening with, I bring warmth, elegance, and effortless chemistry.",
     aboutParagraphs: [
       "The Gold Coast has an energy that's hard to resist — relaxed but exciting, casual but glamorous. That's my vibe too. I'm equally at home in a beachfront cocktail bar or a private penthouse suite.",
       "I'm available on the Gold Coast regularly, especially when touring Brisbane. The two cities are close enough that I can easily visit for the right booking.",
@@ -205,12 +205,12 @@ export const cityData = {
 
   canberra: {
     cityName: "Canberra",
-    title: "Teena | Indian Escort & Companion in Canberra | GFE Canberra",
+    title: "Shruti | Indian Escort & Companion in Canberra | GFE Canberra",
     eyebrow: "Canberra Companion",
     heading: "Indian Escort & Companion in Canberra",
     subheading: "Discreet & Refined GFE in Canberra",
     introText:
-      "Canberra — a city of professionals who value discretion above all else. I'm Teena, a premium Indian companion offering refined, confidential experiences in the nation's capital. Whether you're a diplomat, executive, or simply someone who appreciates genuine company, I bring warmth, intelligence, and absolute privacy to every encounter.",
+      "Canberra — a city of professionals who value discretion above all else. I'm Shruti, a premium Indian companion offering refined, confidential experiences in the nation's capital. Whether you're a diplomat, executive, or simply someone who appreciates genuine company, I bring warmth, intelligence, and absolute privacy to every encounter.",
     aboutParagraphs: [
       "I understand Canberra. The pace is different here — professional, measured, discreet. My Canberra clients appreciate that I match that energy perfectly. No social media posts, no loose talk — just a beautiful, intelligent woman who knows how to keep things private.",
       "When I visit Canberra, it's exclusively for quality encounters. The smaller city means I keep my presence very low-key, which suits both of us.",

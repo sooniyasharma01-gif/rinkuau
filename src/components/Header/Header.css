@@ -3,10 +3,12 @@
   position: sticky;
   top: 0;
   width: 100%;
-  background: rgba(250, 247, 242, 0.97);
+  background: rgba(245, 240, 248, 0.97);
   border-bottom: 1px solid rgba(201, 169, 110, 0.15);
   z-index: 1000;
   transition: transform 0.3s ease;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .header--hidden {
@@ -89,7 +91,7 @@
   cursor: pointer;
   transition: color 0.25s;
   user-select: none;
-  padding-bottom: 14px; /* extends hover zone down to cover the gap */
+  padding-bottom: 14px;
 }
 
 .nav-more:hover { color: #c9a96e; }
@@ -98,12 +100,12 @@
   position: absolute;
   top: 100%;
   right: 0;
-  padding-top: 14px; /* pushes menu down, covered by nav-more padding */
+  padding-top: 14px;
   z-index: 200;
 }
 
 .dropdown-menu-inner {
-  background: #fff;
+  background: #f5f0f8;
   border: 1px solid rgba(201,169,110,0.2);
   border-radius: 14px;
   padding: 10px 0;
@@ -169,7 +171,7 @@
 /* MOBILE MENU */
 .mobile-menu {
   display: none;
-  background: #faf7f2;
+  background: #f5f0f8;
   border-top: 1px solid rgba(201, 169, 110, 0.15);
   overflow: hidden;
   max-height: 0;

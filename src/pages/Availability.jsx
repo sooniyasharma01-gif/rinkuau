@@ -1,15 +1,11 @@
 import "./NewPages.css";
 import useScrollReveal from "../hooks/useScrollReveal";
-import useRemoteConfig from "../hooks/useRemoteConfig";
 
 export default function Availability() {
   const hero     = useScrollReveal();
   const sched    = useScrollReveal();
   const notes    = useScrollReveal();
   const cta      = useScrollReveal();
-  const config   = useRemoteConfig();
-
-  const WA_URL = `https://wa.me/${config.phone}?text=${encodeURIComponent("Hi Teena, I'd like to check your availability.")}`;
 
 const schedule = [
   { day: "Monday",    status: "available" },
@@ -63,16 +59,13 @@ const statusLabel = { available: "Available", limited: "Limited", unavailable: "
         </div>
         <div className="avail-note-item">
           <span>⚡</span>
-          <p><strong>Schedule changes:</strong> Availability updates regularly — always confirm via WhatsApp.</p>
+          <p><strong>Schedule changes:</strong> Availability updates regularly — always confirm before your date.</p>
         </div>
       </div>
 
       <div className="avail-cta reveal" ref={cta}>
         <h3>Check My Current Availability</h3>
         <p>For the most up-to-date availability, reach out directly.</p>
-        <a href={WA_URL} target="_blank" rel="noopener noreferrer" className="contact-btn">
-          Message on WhatsApp
-        </a>
       </div>
     </div>
   );

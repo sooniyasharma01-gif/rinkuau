@@ -3,7 +3,7 @@ import "./NewPages.css";
 import useScrollReveal from "../hooks/useScrollReveal";
 
 const faqs = [
-  { q: "How do I book?", a: "Simply reach out via WhatsApp with a brief introduction — your name, preferred date and time, duration, and whether you'd like incall or outcall. I'll confirm availability and guide you through the next steps." },
+  { q: "How do I book?", a: "Simply reach out directly with a brief introduction — your name, preferred date and time, duration, and whether you'd like incall or outcall. I'll confirm availability and guide you through the next steps." },
   { q: "Is a deposit required?", a: "Yes — an AUD $150 deposit via Bank Transfer or BTC is required to secure all bookings. This is applied towards your total. The remainder is due in cash upon meeting." },
   { q: "What is incall vs outcall?", a: "Incall means you visit me at my location. Outcall means I come to you — your home, hotel, or another agreed location. Both are available." },
   { q: "Do you travel?", a: "Yes — I'm available for travel both within Australia and internationally via FMTY (Fly Me To You). A 3-hour minimum applies, with airfare and hotel covered by you." },
@@ -40,7 +40,7 @@ export default function FAQ() {
         <div className="np-hero-line"><span /><em>Everything You Need to Know</em><span /></div>
         <p className="np-intro">
           Answers to the most common questions. If something isn't covered here,
-          feel free to reach out via WhatsApp.
+          feel free to reach out directly.
         </p>
       </div>
 

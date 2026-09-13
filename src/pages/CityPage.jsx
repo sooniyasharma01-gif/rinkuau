@@ -47,7 +47,7 @@ export default function CityPage() {
 
       {/* ABOUT SECTION */}
       <div className="city-about reveal" ref={about}>
-        <h2>About Teena — {data.cityName}</h2>
+        <h2>About Shruti — {data.cityName}</h2>
         {data.aboutParagraphs.map((p, i) => (
           <p key={i}>{p}</p>
         ))}

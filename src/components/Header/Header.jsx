@@ -36,7 +36,7 @@ export default function Header() {
     <header className={`header ${hidden ? "header--hidden" : ""}`}>
       <div className="header-inner">
         <NavLink to="/" className="logo" onClick={close}>
-          Teena
+          Shruti
           <span className="online-dot" />
         </NavLink>
 

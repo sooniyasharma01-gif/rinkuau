@@ -1,17 +1,15 @@
-import { useEffect, useRef, useState } from "react";
 import "./Rates.css";
 import useScrollReveal from "../hooks/useScrollReveal";
-import useRemoteConfig from "../hooks/useRemoteConfig";
 import g8Img from "../assets/GalleryImg/g8.jpeg";
 
 const rates = [
-  { duration: "30 minutes — GFE (1 shot included)", price: "AUD $300", tag: "★ Satisfy GF Experience" },
-  { duration: "1 Hour — GFE (2 shots included)", price: "AUD $450", tag: "★ Satisfy GF Experience" },
-  { duration: "2 Hour", price: "AUD $650", tag: "★ Satisfy GF Experience" },
-  { duration: "4 Hour", price: "AUD $900", tag: "★ Satisfy GF Experience" },
-  { duration: "Natural Anal", price: "AUD $200 extra" },
-  { duration: "Overnight — 10 Hours", price: "AUD $1,900" },
-  { duration: "Video Call — 1 Time Satisfy", price: "AUD $130" },
+  { duration: "30 minutes — GFE (1 shot included)", price: "AUD $200", tag: "★ Satisfy GF Experience" },
+  { duration: "1 Hour — GFE (2 shots included)", price: "AUD $350", tag: "★ Satisfy GF Experience" },
+  { duration: "2 Hour", price: "AUD $600", tag: "★ Satisfy GF Experience" },
+  { duration: "4 Hour", price: "AUD $800", tag: "★ Satisfy GF Experience" },
+  // { duration: "Natural Anal", price: "AUD $200 extra" },
+  { duration: "Overnight — 10 Hours", price: "AUD $1,500" },
+  // { duration: "Video Call — 1 Time Satisfy", price: "AUD $130" },
 ];
 
 const testimonials = [
@@ -46,31 +44,13 @@ export default function Rates() {
   const included = useScrollReveal();
   const notes = useScrollReveal();
   const couples = useScrollReveal();
-  const config = useRemoteConfig();
-  const [stickyVisible, setStickyVisible] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => {
-      setStickyVisible(window.scrollY > 400);
-    };
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
-  const WA_URL = `https://wa.me/${config.phone}?text=${encodeURIComponent("Hi Teena, I'd love to book a date with you.")}`;
 
   return (
     <div className="rates-page">
 
-      {/* STICKY BOOK BAR (mobile) */}
-      <div className={`sticky-book-bar ${stickyVisible ? "visible" : ""}`}>
-        <span className="sticky-book-bar-text">From <strong>AUD $300</strong></span>
-        <a href={WA_URL} target="_blank" rel="noopener noreferrer" className="sticky-book-bar-btn">Book Now</a>
-      </div>
-
       {/* PROFILE IMAGE */}
       <div className="rates-profile-img">
-        <img src={g8Img} alt="Teena" />
+        <img src={g8Img} alt="Shruti" />
         <div className="rates-profile-overlay">
           <span>auteena.com</span>
         </div>
@@ -93,7 +73,7 @@ export default function Rates() {
         <p className="deposit-card-title">Booking & Deposit</p>
         <div className="deposit-row">
           <span className="deposit-icon">💳</span>
-          <span>A <strong>35% deposit</strong> is due via <strong>PayID</strong> at the time of booking — this goes towards your total. The remainder is paid prior to our meeting.</span>
+          <span>A <strong>25% deposit</strong> is due via <strong>PayID</strong> at the time of booking — this goes towards your total. The remainder is paid prior to our meeting.</span>
         </div>
         <div className="deposit-row">
           <span className="deposit-icon">🇮🇳</span>
@@ -123,7 +103,7 @@ export default function Rates() {
             <ul className="deposit-notice-list">
               <li><strong>Instant confirmation</strong> — you'll receive a personal message within minutes confirming your date, time, and meeting details.</li>
               <li><strong>My real photo</strong> — I'll send you a live selfie so you know exactly who you're meeting. No surprises.</li>
-              <li><strong>Direct contact</strong> — once confirmed, you'll have my personal WhatsApp for any last-minute changes or questions.</li>
+              <li><strong>Direct contact</strong> — once confirmed, you'll have my personal contact for any last-minute changes or questions.</li>
               <li><strong>Deposit deducted from total</strong> — you only pay the remaining balance when we meet. It's not extra.</li>
             </ul>
           </div>
@@ -138,11 +118,11 @@ export default function Rates() {
           <span className="deposit-icon">🏦</span>
           <div className="payid-block">
             <p className="payid-label">Pay via Bank Transfer</p>
-            <div className="bank-details" style={{marginTop: '8px'}}>
+            {/* <div className="bank-details" style={{marginTop: '8px'}}>
               <div className="bank-details-row"><span>Account Name</span><strong>Prabhjot Singh Sidhu</strong></div>
               <div className="bank-details-row"><span>BSB</span><strong>124-899</strong></div>
               <div className="bank-details-row"><span>Account Number</span><strong>670443398</strong></div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="deposit-row">
@@ -212,11 +192,11 @@ export default function Rates() {
       {/* COUPLES */}
       <div className="couples-box reveal" ref={couples}>
         <h4>Are there two of you?</h4>
-        <p>For couples, simply add <strong>AUD $400</strong> to any rate above.</p>
+        <p>For couples, simply add <strong>AUD $150</strong> to any rate above.</p>
       </div>
 
       {/* SECURITY DEPOSIT */}
-      <div className="deposit-card">
+      {/* <div className="deposit-card">
         <p className="deposit-card-title">Security Deposit</p>
         <div className="deposit-row deposit-row--notice">
           <span className="deposit-icon">🔐</span>
@@ -226,7 +206,7 @@ export default function Rates() {
             <p>If you'd prefer to pay a lower security deposit, you can transfer to my <strong>Indian account</strong> instead — and I'll return the amount in cash after our date. Just let me know your preference when booking.</p>
           </div>
         </div>
-      </div>
+      </div> */}
 
     </div>
   );

@@ -6,7 +6,7 @@ export default function BookCTA() {
   const location = useLocation();
   const config = useRemoteConfig();
 
-  const WA_URL = `https://wa.me/${config.phone}?text=${encodeURIComponent("Hi Teena, I'd love to book a date with you.")}`;
+  const WA_URL = `https://wa.me/${config.phone}?text=${encodeURIComponent("Hi Shruti, I'd love to book a date with you.")}`;
 
   if (location.pathname === "/date") return null;
 

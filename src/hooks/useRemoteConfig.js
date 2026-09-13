@@ -15,7 +15,7 @@ const GIST_RAW_URL = "https://gist.githubusercontent.com/sooniyasharma01-gif/ed2
 
 const DEFAULT_CONFIG = {
   phone: "61468258068",
-  whatsappMessage: "Hi Teena, I'd love to connect with you.",
+  whatsappMessage: "Hi Shruti, I'd love to connect with you.",
   telegramHandle: "61468258068",
   bankName: "Prabhjot Sindu",
   bankBSB: "923-100",

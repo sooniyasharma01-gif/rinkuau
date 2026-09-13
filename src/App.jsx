@@ -3,13 +3,11 @@ import { Routes, Route, useLocation } from "react-router-dom";
 
 import Header      from "./components/Header/Header";
 import Footer      from "./components/Footer/Footer";
-import BookCTA     from "./components/BookCTA/BookCTA";
 import AgeGate     from "./components/AgeGate/AgeGate";
 import Loader      from "./components/Loader/Loader";
 import BackToTop   from "./components/BackToTop/BackToTop";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
 import CookieBanner from "./components/CookieBanner/CookieBanner";
-import NotePopup   from "./components/NotePopup/NotePopup";
 import BottomNav   from "./components/BottomNav/BottomNav";
 
 import Intro        from "./pages/Intro";
@@ -112,10 +110,8 @@ export default function App() {
       </main>
 
       <Footer />
-      <BookCTA />
       <BackToTop />
       <CookieBanner />
-      <NotePopup />
       <BottomNav />
     </div>
   );
