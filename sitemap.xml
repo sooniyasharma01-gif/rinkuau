@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://yoursshruti.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en-gb" href="https://yoursshruti.com/"/>
+    <priority>1.0</priority><changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://yoursshruti.com/intro</loc>
+    <xhtml:link rel="alternate" hreflang="en-gb" href="https://yoursshruti.com/intro"/>
+    <priority>0.9</priority><changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://yoursshruti.com/gallery</loc>
+    <xhtml:link rel="alternate" hreflang="en-gb" href="https://yoursshruti.com/gallery"/>
+    <priority>0.8</priority><changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://yoursshruti.com/rates</loc>
+    <xhtml:link rel="alternate" hreflang="en-gb" href="https://yoursshruti.com/rates"/>
+    <priority>0.9</priority><changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://yoursshruti.com/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en-gb" href="https://yoursshruti.com/contact"/>
+    <priority>0.9</priority><changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://yoursshruti.com/screening</loc>
+    <xhtml:link rel="alternate" hreflang="en-gb" href="https://yoursshruti.com/screening"/>
+    <priority>0.7</priority><changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://yoursshruti.com/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en-gb" href="https://yoursshruti.com/faq"/>
+    <priority>0.7</priority><changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://yoursshruti.com/availability</loc>
+    <xhtml:link rel="alternate" hreflang="en-gb" href="https://yoursshruti.com/availability"/>
+    <priority>0.8</priority><changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://yoursshruti.com/london</loc>
+    <xhtml:link rel="alternate" hreflang="en-gb" href="https://yoursshruti.com/london"/>
+    <priority>0.9</priority><changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://yoursshruti.com/manchester</loc>
+    <xhtml:link rel="alternate" hreflang="en-gb" href="https://yoursshruti.com/manchester"/>
+    <priority>0.9</priority><changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://yoursshruti.com/birmingham</loc>
+    <xhtml:link rel="alternate" hreflang="en-gb" href="https://yoursshruti.com/birmingham"/>
+    <priority>0.9</priority><changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://yoursshruti.com/leeds</loc>
+    <xhtml:link rel="alternate" hreflang="en-gb" href="https://yoursshruti.com/leeds"/>
+    <priority>0.9</priority><changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://yoursshruti.com/edinburgh</loc>
+    <xhtml:link rel="alternate" hreflang="en-gb" href="https://yoursshruti.com/edinburgh"/>
+    <priority>0.9</priority><changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://yoursshruti.com/bristol</loc>
+    <xhtml:link rel="alternate" hreflang="en-gb" href="https://yoursshruti.com/bristol"/>
+    <priority>0.9</priority><changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://yoursshruti.com/liverpool</loc>
+    <xhtml:link rel="alternate" hreflang="en-gb" href="https://yoursshruti.com/liverpool"/>
+    <priority>0.9</priority><changefreq>weekly</changefreq>
+  </url>
+</urlset>
