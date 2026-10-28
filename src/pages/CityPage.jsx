@@ -26,7 +26,7 @@ export default function CityPage() {
       <div className="city-page">
         <div className="city-not-found">
           <h2>City not found</h2>
-          <p>Looking for companionship in another city? <NavLink to="/contact">Get in touch</NavLink> — I travel across Australia.</p>
+          <p>Looking for companionship in another city? <NavLink to="/contact">Get in touch</NavLink> — I travel across the UK.</p>
         </div>
       </div>
     );

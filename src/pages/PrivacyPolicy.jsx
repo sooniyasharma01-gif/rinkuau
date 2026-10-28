@@ -54,7 +54,7 @@ export default function PrivacyPolicy() {
 
         <section>
           <h3>8. Your Rights</h3>
-          <p>Under Australian Privacy Law (Privacy Act 1988), you have the right to request access to, correction of, or deletion of any personal data held about you. As this Site collects no personal data directly, there is nothing to access or delete. For any concerns, contact via WhatsApp.</p>
+          <p>Under UK Data Protection Law (UK GDPR and the Data Protection Act 2018), you have the right to request access to, correction of, or deletion of any personal data held about you. As this Site collects no personal data directly, there is nothing to access or delete. For any concerns, please reach out via the contact page.</p>
         </section>
 
         <section>

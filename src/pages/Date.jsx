@@ -41,7 +41,7 @@ const etiquette = [
   },
   {
     title: "Secure Your Booking",
-    desc: "An AUD $150 deposit via Bank Transfer or BTC confirms your appointment. This is applied to your total and ensures I hold the time exclusively for you.",
+    desc: "A £100 deposit via Bank Transfer confirms your appointment. This is applied to your total and ensures I hold the time exclusively for you.",
   },
   {
     title: "Arrive as Yourself",

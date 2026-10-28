@@ -3,22 +3,23 @@ import useScrollReveal from "../hooks/useScrollReveal";
 import g8Img from "../assets/GalleryImg/g8.jpeg";
 
 const rates = [
-  { duration: "30 minutes — GFE (1 shot included)", price: "AUD $200", tag: "★ Satisfy GF Experience" },
-  { duration: "1 Hour — GFE (2 shots included)", price: "AUD $350", tag: "★ Satisfy GF Experience" },
-  { duration: "2 Hour", price: "AUD $600", tag: "★ Satisfy GF Experience" },
-  { duration: "4 Hour", price: "AUD $800", tag: "★ Satisfy GF Experience" },
-  // { duration: "Natural Anal", price: "AUD $200 extra" },
-  { duration: "Overnight — 10 Hours", price: "AUD $1,500" },
-  // { duration: "Video Call — 1 Time Satisfy", price: "AUD $130" },
+  { duration: "30 minutes — GFE (1 shot included)", price: "£80", tag: "★ Satisfy GF Experience" },
+  { duration: "1 Hour — GFE (2 shots included)", price: "£130", tag: "★ Satisfy GF Experience" },
+  { duration: "2 Hour", price: "£220", tag: "★ Satisfy GF Experience" },
+  { duration: "3 Hour", price: "£340", tag: "★ Satisfy GF Experience" },
+  { duration: "4 Hour", price: "£600", tag: "★ Satisfy GF Experience" },
+  // { duration: "Natural Anal", price: "£150 extra" },
+  { duration: "Overnight — 10 Hours", price: "£1,200" },
+  { duration: "Video Call — 1 Time Satisfy", price: "£50" },
 ];
 
 const testimonials = [
-  { text: "Truly unforgettable. Worth every penny.", by: "J.M., Sydney" },
-  { text: "The most natural, effortless evening I've had in years.", by: "S.P., Melbourne" },
-  { text: "Elegant, warm, and completely genuine.", by: "R.A., Brisbane" },
-  { text: "Exceeded every expectation. Absolutely wonderful.", by: "D.K., Dubai" },
-  { text: "Impeccable discretion and stunning presence.", by: "M.R., Perth" },
-  { text: "Time just disappeared. Highly recommend.", by: "T.H., Adelaide" },
+  { text: "Truly unforgettable. Worth every penny.", by: "J.M., London" },
+  { text: "The most natural, effortless evening I've had in years.", by: "S.P., Manchester" },
+  { text: "Elegant, warm, and completely genuine.", by: "R.A., Birmingham" },
+  { text: "Exceeded every expectation. Absolutely wonderful.", by: "D.K., Edinburgh" },
+  { text: "Impeccable discretion and stunning presence.", by: "M.R., Leeds" },
+  { text: "Time just disappeared. Highly recommend.", by: "T.H., Bristol" },
 ];
 
 function TestimonialTicker() {
@@ -73,11 +74,11 @@ export default function Rates() {
         <p className="deposit-card-title">Booking & Deposit</p>
         <div className="deposit-row">
           <span className="deposit-icon">💳</span>
-          <span>A <strong>25% deposit</strong> is due via <strong>PayID</strong> at the time of booking — this goes towards your total. The remainder is paid prior to our meeting.</span>
+          <span>A <strong>£50</strong> is due via <strong>Bank Transfer</strong> at the time of booking — this goes towards your total. The remainder is paid prior to our meeting.</span>
         </div>
         <div className="deposit-row">
           <span className="deposit-icon">🇮🇳</span>
-          <span>Pay on my <strong>Indian account</strong> and get <strong>20% off</strong> the total rate.</span>
+          <span>Pay on my <strong>Indian account</strong> and get <strong>10% off</strong> the total rate.</span>
         </div>
         <div className="deposit-row deposit-row--trust">
           <span className="deposit-icon">🛡️</span>
@@ -85,18 +86,18 @@ export default function Rates() {
             <p className="trust-block-title">I Understand Your Hesitation</p>
             <p className="trust-block-intro">I know sending money to someone you haven't met feels risky. Here's why my regulars never think twice:</p>
             <ul className="trust-block-list">
-              <li><strong>My real identity is tied to my bank.</strong> Australian banks require full ID verification. If I took your money and disappeared, you'd have a traceable record — I'd be putting myself at legal risk. That alone should tell you I have zero reason to scam anyone.</li>
-              <li><strong>My reputation is my livelihood.</strong> One bad review ends a career in this industry. I've built mine over years of genuine, verified encounters — I'm not risking that for $100.</li>
+              <li><strong>My real identity is tied to my bank.</strong> UK banks require full ID verification. If I took your money and disappeared, you'd have a traceable record — I'd be putting myself at legal risk. That alone should tell you I have zero reason to scam anyone.</li>
+              <li><strong>My reputation is my livelihood.</strong> One bad review ends a career in this industry. I've built mine over years of genuine, verified encounters — I'm not risking that for £50.</li>
               <li><strong>You'll receive a confirmation.</strong> Once your deposit clears, I send you a personal confirmation with the date, time, and location details. You'll know everything is real before our meeting.</li>
               <li><strong>100% refund if I cancel.</strong> If I can't make it for any reason, your deposit is returned in full — immediately, no questions, no runaround.</li>
-              <li><strong>It's not extra — it's part of your total.</strong> The 35% simply holds your spot. It's deducted from the final rate. You're not paying more, just paying earlier.</li>
+              <li><strong>It's not extra — it's part of your total.</strong> The £50 simply holds your spot. It's deducted from the final rate. You're not paying more, just paying earlier.</li>
               <li><strong>It protects both of us.</strong> I've had too many no-shows. A small deposit means you're serious, and I can block real time for you without worrying. It's mutual respect.</li>
             </ul>
             <p className="trust-block-footer">Still unsure? Message me first — I'm happy to chat and answer any questions. No pressure.</p>
           </div>
         </div>
 
-        <div className="deposit-row deposit-row--notice">
+        {/* <div className="deposit-row deposit-row--notice">
           <span className="deposit-icon">✅</span>
           <div className="deposit-notice-body">
             <p className="deposit-notice-title">What Happens After You Pay</p>
@@ -107,11 +108,11 @@ export default function Rates() {
               <li><strong>Deposit deducted from total</strong> — you only pay the remaining balance when we meet. It's not extra.</li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
         <div className="deposit-row">
           <span className="deposit-icon">💬</span>
-          <span><em>"I was nervous about the deposit too, but she sent a confirmation straight away and showed up looking even better than her photos. Completely legit."</em> — Recent client, Sydney</span>
+          <span><em>"I was nervous about the deposit too, but she sent a confirmation straight away and showed up looking even better than her photos. Completely legit."</em> — Recent client, London</span>
         </div>
 
         <div className="deposit-row">
@@ -192,7 +193,7 @@ export default function Rates() {
       {/* COUPLES */}
       <div className="couples-box reveal" ref={couples}>
         <h4>Are there two of you?</h4>
-        <p>For couples, simply add <strong>AUD $150</strong> to any rate above.</p>
+        <p>For couples, simply add <strong>£60</strong> to any rate above.</p>
       </div>
 
       {/* SECURITY DEPOSIT */}

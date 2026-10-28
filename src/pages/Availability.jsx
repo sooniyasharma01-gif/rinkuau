@@ -55,7 +55,7 @@ const statusLabel = { available: "Available", limited: "Limited", unavailable: "
         </div>
         <div className="avail-note-item">
           <span>✈️</span>
-          <p><strong>Travel:</strong> Available for Australian travel and international FMTY with sufficient notice.</p>
+          <p><strong>Travel:</strong> Available for travel across the UK and international FMTY with sufficient notice.</p>
         </div>
         <div className="avail-note-item">
           <span>⚡</span>

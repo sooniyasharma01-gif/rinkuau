@@ -39,20 +39,20 @@ export default function Footer() {
         <div className="footer-cities">
           <p className="footer-cities-label">Available in</p>
           <div className="footer-cities-links">
-            <NavLink to="/sydney">Sydney</NavLink>
-            <NavLink to="/melbourne">Melbourne</NavLink>
-            <NavLink to="/brisbane">Brisbane</NavLink>
-            <NavLink to="/perth">Perth</NavLink>
-            <NavLink to="/adelaide">Adelaide</NavLink>
-            <NavLink to="/gold-coast">Gold Coast</NavLink>
-            <NavLink to="/canberra">Canberra</NavLink>
+            <NavLink to="/london">London</NavLink>
+            <NavLink to="/manchester">Manchester</NavLink>
+            <NavLink to="/birmingham">Birmingham</NavLink>
+            <NavLink to="/leeds">Leeds</NavLink>
+            <NavLink to="/edinburgh">Edinburgh</NavLink>
+            <NavLink to="/bristol">Bristol</NavLink>
+            <NavLink to="/liverpool">Liverpool</NavLink>
           </div>
         </div>
 
         {/* BOTTOM ROW */}
         <div className="footer-bottom">
           <p className="footer-copy">
-            © {new Date().getFullYear()} Shruti &nbsp;·&nbsp; Australia &nbsp;·&nbsp; All rights reserved.
+            © {new Date().getFullYear()} Shruti &nbsp;·&nbsp; United Kingdom &nbsp;·&nbsp; All rights reserved.
           </p>
           <div className="footer-bottom-right">
             <NavLink to="/privacy" className="footer-privacy">Privacy Policy</NavLink>

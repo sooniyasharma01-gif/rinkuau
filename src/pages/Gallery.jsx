@@ -14,8 +14,11 @@ import g9 from "../assets/GalleryImg/g9.jpeg";
 import g10 from "../assets/GalleryImg/g10.jpeg";
 import g11 from "../assets/GalleryImg/g11.jpeg";
 import g12 from "../assets/GalleryImg/g12.jpeg";
+import g13 from "../assets/GalleryImg/g13.jpeg";
+import g14 from "../assets/GalleryImg/g14.jpeg";
+import g15 from "../assets/GalleryImg/g15.jpeg";
 
-const images = [g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,g11,g12];
+const images = [g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,g11,g12,g13,g14,g15];
 
 function getItemClass(index) {
   const pos = index % 4;
