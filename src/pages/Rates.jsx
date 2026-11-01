@@ -7,9 +7,9 @@ const rates = [
   { duration: "1 Hour — GFE (2 shots included)", price: "£130", tag: "★ Satisfy GF Experience" },
   { duration: "2 Hour", price: "£220", tag: "★ Satisfy GF Experience" },
   { duration: "3 Hour", price: "£340", tag: "★ Satisfy GF Experience" },
-  { duration: "4 Hour", price: "£600", tag: "★ Satisfy GF Experience" },
-  // { duration: "Natural Anal", price: "£150 extra" },
-  { duration: "Overnight — 10 Hours", price: "£1,200" },
+  { duration: "4 Hour", price: "AUD $800", tag: "★ Satisfy GF Experience" },
+  // { duration: "Natural Anal", price: "AUD $150 extra" },
+  { duration: "Overnight — 10 Hours", price: "AUD $1,500" },
   { duration: "Video Call — 1 Time Satisfy", price: "£50" },
 ];
 
@@ -86,7 +86,7 @@ export default function Rates() {
             <p className="trust-block-title">I Understand Your Hesitation</p>
             <p className="trust-block-intro">I know sending money to someone you haven't met feels risky. Here's why my regulars never think twice:</p>
             <ul className="trust-block-list">
-              <li><strong>My real identity is tied to my bank.</strong> UK banks require full ID verification. If I took your money and disappeared, you'd have a traceable record — I'd be putting myself at legal risk. That alone should tell you I have zero reason to scam anyone.</li>
+              <li><strong>My real identity is tied to my bank.</strong> Australian banks require full ID verification. If I took your money and disappeared, you'd have a traceable record — I'd be putting myself at legal risk. That alone should tell you I have zero reason to scam anyone.</li>
               <li><strong>My reputation is my livelihood.</strong> One bad review ends a career in this industry. I've built mine over years of genuine, verified encounters — I'm not risking that for £50.</li>
               <li><strong>You'll receive a confirmation.</strong> Once your deposit clears, I send you a personal confirmation with the date, time, and location details. You'll know everything is real before our meeting.</li>
               <li><strong>100% refund if I cancel.</strong> If I can't make it for any reason, your deposit is returned in full — immediately, no questions, no runaround.</li>

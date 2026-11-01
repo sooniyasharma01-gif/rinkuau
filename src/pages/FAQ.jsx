@@ -6,7 +6,7 @@ const faqs = [
   { q: "How do I book?", a: "Simply reach out directly with a brief introduction — your name, preferred date and time, duration, and whether you'd like incall or outcall. I'll confirm availability and guide you through the next steps." },
   { q: "Is a deposit required?", a: "Yes — a £50 deposit via Bank Transfer is required to secure all bookings. This is applied towards your total. The remainder is due in cash upon meeting." },
   { q: "What is incall vs outcall?", a: "Incall means you visit me at my location. Outcall means I come to you — your home, hotel, or another agreed location. Both are available." },
-  { q: "Do you travel?", a: "Yes — I'm available for travel within the UK and internationally via FMTY (Fly Me To You). A 3-hour minimum applies, with airfare and hotel covered by you." },
+  { q: "Do you travel?", a: "Yes — I'm available for travel within Australia and internationally via FMTY (Fly Me To You). A 3-hour minimum applies, with airfare and hotel covered by you." },
   { q: "What is the Girlfriend Experience (GFE)?", a: "The GFE is a companionship experience that feels natural and genuine — think real conversation, warmth, affection, and connection. It's about quality time with someone who is fully present with you." },
   { q: "How far in advance should I book?", a: "I recommend booking at least 24–48 hours in advance to ensure availability. Same-day bookings may be possible but are not guaranteed." },
   { q: "What is your cancellation policy?", a: "Cancellations made less than 24 hours before the scheduled time forfeit the deposit. In the rare event I must cancel, your deposit is fully refunded." },

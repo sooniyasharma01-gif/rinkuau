@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yoursshruti.com/sitemap.xml
+Sitemap: https://auteena.com/sitemap.xml
 
 # UK targeted site
